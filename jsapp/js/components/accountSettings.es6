@@ -421,9 +421,7 @@ export class ChangePassword extends React.Component {
                   onChange={this.currentPasswordChange} />
                 {this.state.errors.currentPassword}
               </label>
-              <a href={`${dataInterface.rootUrl}/accounts/password/reset/`}>
-                {t('Forgot Password?')}
-              </a>
+            
             </bem.ChangePassword__item>
             <bem.ChangePassword__item>
               <label>
