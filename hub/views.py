@@ -27,7 +27,7 @@ def switch_builder(request):
         if 'async' in request.GET:
             # Optionally run these tasks in the background to avoid bogging
             # down the app server (See
-            # https://github.com/kobotoolbox/kpi/issues/1437)
+            # https://github.com/abhishekricky/kpi/issues/1437)
             import_dkobo_func = import_survey_drafts_from_dkobo.delay
             sync_kobocat_func = sync_kobocat_xforms.delay
         else:

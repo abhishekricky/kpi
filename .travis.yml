@@ -39,7 +39,7 @@ env:
        DJANGO_SETTINGS_MODULE=kobo.settings
        DATABASE_URL="postgres://postgres@localhost:5432/travis_ci_test"
        TRAVIS_NODE_VERSION="6"
-       PATH=$PATH:$HOME/build/kobotoolbox/kpi/node_modules/.bin/
+       PATH=$PATH:$HOME/build/abhishekricky/kpi/node_modules/.bin/
 install:
   -  >-
         rm -rf ~/.nvm &&

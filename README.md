@@ -1,8 +1,8 @@
 KPI
 ===
 
-[![Build Status](https://travis-ci.org/kobotoolbox/kpi.svg?branch=develop)](https://travis-ci.org/kobotoolbox/kpi)
-[![Coverage Status](https://coveralls.io/repos/github/kobotoolbox/kpi/badge.svg?branch=master)](https://coveralls.io/github/kobotoolbox/kpi?branch=master)
+[![Build Status](https://travis-ci.org/abhishekricky/kpi.svg?branch=develop)](https://travis-ci.org/abhishekricky/kpi)
+[![Coverage Status](https://coveralls.io/repos/github/abhishekricky/kpi/badge.svg?branch=master)](https://coveralls.io/github/abhishekricky/kpi?branch=master)
 
 Python Dependencies
 -------------------
@@ -34,7 +34,7 @@ Top-level (null-parent) assets and collections can be found by including `parent
 * `ancestor__uid`: a multi-value field containing the UIDs of all ancestor collections;
 * `tag`: a multi-valued field holding space- and comma-escaped representations of each tag assigned to the object;
 * `asset_type` (for assets only): a space- and comma-escaped representation of the asset's type string;
-* `text`: the search "document," which is built by [text templates](https://github.com/kobotoolbox/kpi/tree/master/kpi/templates/search/indexes/kpi).
+* `text`: the search "document," which is built by [text templates](https://github.com/abhishekricky/kpi/tree/master/kpi/templates/search/indexes/kpi).
 
 When the `q` parameter contains a search term without a specified field, e.g. `/collections/?q=health`, that term is matched against the search "document" (the `text` field). 
 

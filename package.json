@@ -106,12 +106,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kobotoolbox/kpi.git"
+    "url": "https://github.com/abhishekricky/kpi.git"
   },
   "author": "alex.dorey@kobotoolbox.org, esmail.fadae@kobotoolbox.org, john.milner@kobotoolbox.org",
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/kobotoolbox/kpi/issues"
+    "url": "https://github.com/abhishekricky/kpi/issues"
   },
-  "homepage": "https://github.com/kobotoolbox/kpi"
+  "homepage": "https://github.com/abhishekricky/kpi"
 }
